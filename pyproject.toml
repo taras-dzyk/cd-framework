@@ -1,0 +1,23 @@
+[project]
+name = "exp-1"
+version = "0.1.0"
+description = "Аналіз антропогенних змін"
+authors = [
+    {name = "Taras", email = "taras.dzyk@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+
+dependencies = [
+    "numpy>=2.0.0",
+    "matplotlib>=3.8.0",
+    "pillow>=10.0.0",
+    "tqdm>=4.66.0",
+    "opencv-python>=4.8.0",
+    "torch>=2.2.0",
+    "torchvision>=0.17.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
