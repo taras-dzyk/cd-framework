@@ -10,10 +10,12 @@ Start indiviudual environment session
 Train resnet18 model   
 `python runner.py --mode train --model resnet18 --epochs 5`
 
+Evaluate resnet18 model  
+`python runner.py --mode eval --model resnet18`
+`python runner.py --mode eval --model resnet18 --weights checkpoints/resnet18/epoch_5.pth`
+
 Close indiviudual environment session    
 `exit`
-
-
 
 
 

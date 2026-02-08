@@ -1,0 +1,2 @@
+epoch,loss,precision,recall,f1,iou
+1,0.5566,0.2369,0.5659,0.3297,0.1986

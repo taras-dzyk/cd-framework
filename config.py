@@ -3,7 +3,7 @@ import os
 
 class Config:
     DATA_PATH = "data/levir-cd"
-    CHECKPOINT_DIR = "checkpoints"
+    CHECKPOINTS_DIR = "checkpoints"
     
     IMAGE_SIZE = 256
     BATCH_SIZE = 16
