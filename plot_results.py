@@ -11,7 +11,7 @@ def plot_history():
 
     model_names = [m.strip() for m in args.models.split(',')]
     
-    colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
+    colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728',"#bf11d6" ]
     markers = ['o', 's', '^', 'v']
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
