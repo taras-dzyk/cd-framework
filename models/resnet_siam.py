@@ -11,10 +11,9 @@ class ResNetSiamese(nn.Module):
     def __init__(self):
         super(ResNetSiamese, self).__init__()
         
-        # Завантажуємо передтреновану ResNet-18
+       
         resnet = models.resnet18(weights=ResNet18_Weights.IMAGENET1K_V1)
         
-        # Використовуємо шари ResNet як екстрактор ознак (без останніх FC шарів)
         self.encoder = nn.Sequential(
             resnet.conv1,
             resnet.bn1,
